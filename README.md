@@ -1,11 +1,12 @@
 # ApexcifyTechnologys_Chatbot-for-FAQs
-# 🎓 FAST-NUCES FAQ Chatbot
+
+# FAST-NUCES FAQ Chatbot
 
 An NLP-powered FAQ chatbot for FAST-NUCES university queries, built with **Flask**, **NLTK**, and **scikit-learn**. Users can type natural language questions and get the most relevant answer using **TF-IDF cosine similarity** matching.
 
 ---
 
-## 📌 Features
+## Features
 
 - NLP preprocessing pipeline (tokenization, stopword removal, stemming)
 - TF-IDF vectorization using scikit-learn
@@ -16,7 +17,7 @@ An NLP-powered FAQ chatbot for FAST-NUCES university queries, built with **Flask
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer    | Technology                        |
 |----------|-----------------------------------|
@@ -27,7 +28,7 @@ An NLP-powered FAQ chatbot for FAST-NUCES university queries, built with **Flask
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 fast-faq-chatbot/
 ├── app.py              # Flask backend — NLP pipeline + API
@@ -35,11 +36,11 @@ fast-faq-chatbot/
     └── index.html      # Chat UI frontend
 ```
 
-> ⚠️ `index.html` **must** be inside a folder named `templates/` — this is required by Flask.
+>`index.html` **must** be inside a folder named `templates/` — this is required by Flask.
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -126,7 +127,7 @@ Response:
 
 ---
 
-## 📚 Libraries Used
+## Libraries Used
 
 - [Flask](https://flask.palletsprojects.com/) — web framework
 - [NLTK](https://www.nltk.org/) — natural language toolkit
@@ -134,7 +135,7 @@ Response:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **AbeelaKhan** — BS Computer Science, FAST-NUCES Karachi  
 AI Internship Task 2 · Apexcify Technologies
